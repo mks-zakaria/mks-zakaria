@@ -122,12 +122,9 @@ Most of these are **live and open to try**, not just described.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=mks-zakaria&count_private=true&show_icons=true&hide_border=true&bg_color=0a0b0f&title_color=ff7a45&text_color=9499a6&icon_color=e6403f">
-    <img src="https://github-readme-stats.vercel.app/api?username=mks-zakaria&count_private=true&show_icons=true&hide_border=true&bg_color=f5f4f1&title_color=ec5c2a&text_color=595f68&icon_color=d6322f" alt="GitHub stats" height="165">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mks-zakaria&layout=compact&hide_border=true&bg_color=0a0b0f&title_color=ff7a45&text_color=9499a6">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mks-zakaria&layout=compact&hide_border=true&bg_color=f5f4f1&title_color=ec5c2a&text_color=595f68" alt="Most used languages" height="165">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mks-zakaria/mks-zakaria/main/assets/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mks-zakaria/mks-zakaria/main/assets/stats-light.svg">
+    <img src="https://raw.githubusercontent.com/mks-zakaria/mks-zakaria/main/assets/stats-dark.svg" alt="5,211 contributions in the last 12 months, 1,448 pull requests, 99 repositories, 26 followers. Most used languages: Python, Jupyter Notebook, TypeScript, HTML, TeX, JavaScript, MDX, Swift, C." width="100%">
   </picture>
 </p>
 
