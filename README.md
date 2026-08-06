@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://www.zakaria-makhkhas.com"><img src="https://img.shields.io/badge/Portfolio-zakaria--makhkhas.com-ff7a45?style=flat-square&labelColor=0a0b0f" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/zakaria-makhkhas-469990284/"><img src="https://img.shields.io/badge/LinkedIn-Zakaria_Makhkhas-e6403f?style=flat-square&logo=linkedin&logoColor=white&labelColor=0a0b0f" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/zakaria-makhkhas-a999a030b/"><img src="https://img.shields.io/badge/LinkedIn-Zakaria_Makhkhas-e6403f?style=flat-square&logo=linkedin&logoColor=white&labelColor=0a0b0f" alt="LinkedIn"></a>
   <a href="https://wa.me/212613145086"><img src="https://img.shields.io/badge/WhatsApp-+212_613_145_086-ffb070?style=flat-square&logo=whatsapp&logoColor=white&labelColor=0a0b0f" alt="WhatsApp"></a>
   <a href="mailto:makhkhas.zakaria@gmail.com"><img src="https://img.shields.io/badge/Email-makhkhas.zakaria@gmail.com-ffd9a0?style=flat-square&logo=gmail&logoColor=white&labelColor=0a0b0f" alt="Email"></a>
 </p>
@@ -132,4 +132,4 @@ Most of these are **live and open to try**, not just described.
 
 Have a project in mind or just want to say hi? My inbox is always open.
 
-**[zakaria-makhkhas.com](https://www.zakaria-makhkhas.com)** · [makhkhas.zakaria@gmail.com](mailto:makhkhas.zakaria@gmail.com) · [WhatsApp](https://wa.me/212613145086) · [LinkedIn](https://www.linkedin.com/in/zakaria-makhkhas-469990284/)
+**[zakaria-makhkhas.com](https://www.zakaria-makhkhas.com)** · [makhkhas.zakaria@gmail.com](mailto:makhkhas.zakaria@gmail.com) · [WhatsApp](https://wa.me/212613145086) · [LinkedIn](https://www.linkedin.com/in/zakaria-makhkhas-a999a030b/)
