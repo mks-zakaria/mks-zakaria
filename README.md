@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mks-zakaria/mks-zakaria/main/assets/hero-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mks-zakaria/mks-zakaria/main/assets/hero-light.svg">
-      <img src="https://raw.githubusercontent.com/mks-zakaria/mks-zakaria/main/assets/hero-dark.svg" alt="Zakaria Makhkhas — Senior Full-Stack Engineer &amp; Data Scientist" width="100%">
+      <img src="https://raw.githubusercontent.com/mks-zakaria/mks-zakaria/main/assets/hero-dark.svg" alt="Zakaria Makhkhas — CTO at Agrogo, Full-Stack Engineer &amp; Data Scientist" width="100%">
     </picture>
   </a>
 </p>
@@ -21,7 +21,7 @@ I build and architect modern full-stack web applications and pursue machine lear
 research. From low-level C to production React and Python services, I enjoy the full
 range of software — and I love passing on what I learn.
 
-- 🌱 **Senior Full-Stack Engineer & Data Scientist at Agrilogy** — connected-farm platforms in production
+- 🌱 **CTO at Agrogo** — leading technology for connected-farm platforms in production
 - 🎓 **AI Trainer at OFPPT** *(part-time)* — teaching applied ML, deep learning, big data, RAG and LLM chatbots
 - 🔬 **Ph.D candidate at UIT Kenitra** — multimodal machine learning across vision, language and structured data
 - 📱 **Building [Noor](https://apps.apple.com/app/noor-prayer-times-qibla/id6790552873)** (iOS) and **[Snaptle](https://www.snaptle.com)** — an adaptive French-learning tutor
@@ -97,7 +97,7 @@ Most of these are **live and open to try**, not just described.
 
 | | Role | Where |
 |---|---|---|
-| **May 2026 — Present** | Senior Full-Stack Engineer & Data Scientist | Agrilogy |
+| **Apr 2026 — Present** | Chief Technology Officer | Agrogo |
 | **May 2026 — Present** | AI Trainer *(Formateur en IA, part-time)* | OFPPT, Morocco |
 | **Sept 2025 — May 2026** | Full-Stack Engineer | Revly |
 | **2023 — Sept 2025** | Software Developer *(Freelance)* | Agrilogy |
@@ -108,7 +108,7 @@ Most of these are **live and open to try**, not just described.
 
 <br>
 
-- **Agrilogy (senior)** — leading full-stack engineering and data science for connected-farm platforms: React, Next.js, Django and Python data pipelines on PostgreSQL and Redis, device ingestion over MQTT, LoRaWAN and Bivocom gateways, deployed with Docker and CI/CD.
+- **Agrogo (CTO)** — leading technology, full-stack engineering and data science for connected-farm platforms: React, Next.js, Django and Python data pipelines on PostgreSQL and Redis, device ingestion over MQTT, LoRaWAN and Bivocom gateways, deployed with Docker and CI/CD.
 - **OFPPT** — part-time training learners in applied AI (machine learning, deep learning, big data, expert systems, RAG and LLM-powered chatbots) through project- and competency-based pedagogy.
 - **Revly** — full-stack features with Next.js, React and PostgreSQL; data pipelines and Airflow DAGs on GCP / GCS, plus LLM-powered chatbots, shipped with Docker.
 - **Agrilogy (freelance)** — full-stack agri-IoT platforms with React, Next.js and Django; device-ingestion pipelines over MQTT, LoRaWAN and Bivocom gateways, backed by PostgreSQL and Redis, deployed with Docker and CI/CD.
