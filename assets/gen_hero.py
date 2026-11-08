@@ -68,7 +68,7 @@ def build(theme_name: str) -> str:
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
         f'width="{W}" height="{H}" role="img" '
-        f'aria-label="Zakaria Makhkhas — Software Engineer and AI Trainer">',
+        f'aria-label="Zakaria Makhkhas — Senior Full-Stack Engineer and Data Scientist">',
         "<style>",
         # Eight drift classes stand in for the shader's layered sin/cos flow.
         # Per-particle animation-delay (inline) desynchronises them.
@@ -178,9 +178,9 @@ def build(theme_name: str) -> str:
         f'<rect class="rule" x="64" y="215" width="132" height="3" rx="1.5" '
         f'fill="url(#ink)"/>',
         f'<text class="in3" x="64" y="256" fill="{t["subtitle"]}" font-size="23" '
-        f'font-weight="600">Software Engineer &amp; AI Trainer</text>',
+        f'font-weight="600">Senior Full-Stack Engineer &amp; Data Scientist</text>',
         f'<text class="in3" x="64" y="288" fill="{t["muted"]}" font-size="16">'
-        f'React · TypeScript · Python · Machine Learning — Casablanca, Morocco</text>',
+        f'React · TypeScript · Python · Machine Learning · AI Trainer — Casablanca, Morocco</text>',
         "</g>",
         "</svg>",
     ]

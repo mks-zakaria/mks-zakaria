@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mks-zakaria/mks-zakaria/main/assets/hero-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mks-zakaria/mks-zakaria/main/assets/hero-light.svg">
-      <img src="https://raw.githubusercontent.com/mks-zakaria/mks-zakaria/main/assets/hero-dark.svg" alt="Zakaria Makhkhas — Software Engineer &amp; AI Trainer" width="100%">
+      <img src="https://raw.githubusercontent.com/mks-zakaria/mks-zakaria/main/assets/hero-dark.svg" alt="Zakaria Makhkhas — Senior Full-Stack Engineer &amp; Data Scientist" width="100%">
     </picture>
   </a>
 </p>
@@ -21,9 +21,10 @@ I build and architect modern full-stack web applications and pursue machine lear
 research. From low-level C to production React and Python services, I enjoy the full
 range of software — and I love passing on what I learn.
 
-- 🎓 **AI Trainer at OFPPT** — teaching applied ML, deep learning, big data, RAG and LLM chatbots
+- 🌱 **Senior Full-Stack Engineer & Data Scientist at Agrilogy** — connected-farm platforms in production
+- 🎓 **AI Trainer at OFPPT** *(part-time)* — teaching applied ML, deep learning, big data, RAG and LLM chatbots
 - 🔬 **Ph.D candidate at UIT Kenitra** — multimodal machine learning across vision, language and structured data
-- 🩺 **Building [Snaptle](https://snaptle.com/)** — a bilingual (FR/AR) doctor-booking platform for Morocco
+- 📱 **Building [Noor](https://apps.apple.com/app/noor-prayer-times-qibla/id6790552873)** (iOS) and **[Snaptle](https://www.snaptle.com)** — an adaptive French-learning tutor
 - 🌍 Casablanca, Morocco · English, French, German, Arabic
 
 ## Skills
@@ -43,12 +44,12 @@ Most of these are **live and open to try**, not just described.
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**Snaptle**](https://snaptle.com/) | Bilingual (FR/AR) doctor booking — search by specialty and location on a live map, check availability, book in seconds. Installable PWA. | Next.js · React · FastAPI · PostgreSQL/PostGIS |
+| [**Noor — Prayer Times & Qibla**](https://apps.apple.com/app/noor-prayer-times-qibla/id6790552873) | Native iOS app: prayer times computed on-device, Qibla compass, full Quran with audio, adkar & a daily wird. EN/FR/AR, no data ever leaves the device. | Swift · SwiftUI · WidgetKit · Adhan |
+| [**Snaptle**](https://www.snaptle.com) | Adaptive French-learning tutor — evaluation, adaptive practice and quizzes for French as a foreign language, with an open learner model. | Next.js · Python/FastAPI · PostgreSQL |
+| **Agrilogy** | Connected-farm platform — field sensors to dashboard: device ingestion over MQTT, LoRaWAN and Bivocom gateways, shipped with Docker and CI/CD. *(client work)* | React · Next.js · Django · PostgreSQL/Redis |
 | [**Plant Disease Recognition**](https://www.zakaria-makhkhas.com/plant-disease) | 38 crop diseases, 98.7% on detached leaves and a fraction of that on real field photos — the page shows both, honestly. | PlantVillage · colour CNN in pure JS |
 | [**Emotion Recognition**](https://www.zakaria-makhkhas.com/emotion-recognition) | Runs entirely in your browser at 1.8 ms/frame — nothing is uploaded. One order *K* trades accuracy, compute and privacy. | Webcam · pure-JS CNN · Tchebichef moments |
 | [**RAG — Moroccan Law Assistant**](https://www.zakaria-makhkhas.com/lois-maroc) | Bilingual (AR/FR) Q&A over three official codes; every answer cites the statute articles it used. | transformers.js · multilingual-e5 · Groq |
-| [**CNN Digit Recognizer**](https://www.zakaria-makhkhas.com/cnn) | A CNN trained from scratch to 98% on MNIST — draw a digit and watch it predict. | Python · numpy |
-| [**Cub3D**](https://www.zakaria-makhkhas.com/cub3d) | A raycasting engine written in C, ported to run playable in the browser. | C · Raycasting |
 
 <details>
 <summary><b>Machine-learning playground</b> — a supervised → unsupervised progression, every one interactive</summary>
@@ -57,6 +58,7 @@ Most of these are **live and open to try**, not just described.
 
 | Algorithm | What you can watch happen |
 |---|---|
+| [CNN Digit Recognizer](https://www.zakaria-makhkhas.com/cnn) | A CNN trained from scratch to 98% on MNIST — draw a digit and watch it predict |
 | [Linear Regression](https://www.zakaria-makhkhas.com/linear-regression) | Live gradient descent on car mileage → price |
 | [Logistic Regression](https://www.zakaria-makhkhas.com/logistic-regression) | Sigmoid + cross-entropy descent, live probability field |
 | [Perceptron](https://www.zakaria-makhkhas.com/perceptron) | Rosenblatt's rule learning on every mistake |
@@ -68,6 +70,7 @@ Most of these are **live and open to try**, not just described.
 | [K-Means Clustering](https://www.zakaria-makhkhas.com/kmeans) | Lloyd's algorithm, k-means++ seeding, live Voronoi regions |
 | [Pathfinding](https://www.zakaria-makhkhas.com/pathfinding) | A* vs Dijkstra vs BFS on a grid you draw |
 | [Tic-Tac-Toe AI](https://www.zakaria-makhkhas.com/tic-tac-toe) | Minimax + alpha-beta — try to beat it |
+| [Bubble Sort](https://www.zakaria-makhkhas.com/bubble-sort) | Adjacent comparisons and swaps, pass by pass, with early exit |
 
 </details>
 
@@ -78,11 +81,12 @@ Most of these are **live and open to try**, not just described.
 
 | Project | Stack |
 |---|---|
-| [Transcendence](https://github.com/zmakhkha/Transcendance) | React · NestJS · PostgreSQL · Docker · Django |
-| [Dockerized Infrastructure](https://github.com/zmakhkha/42-inception) | Docker · NGINX · WordPress · MariaDB · Redis |
-| [HTTP Web Server](https://github.com/zmakhkha/42-webserv) | C++ · Makefile · Python · PHP |
+| [Transcendence](https://github.com/mks-zakaria/Transcendance) | React · NestJS · PostgreSQL · Docker · Django |
+| [Dockerized Infrastructure](https://github.com/mks-zakaria/42-Inception) | Docker · NGINX · WordPress · MariaDB · Redis |
+| [HTTP Web Server](https://github.com/mks-zakaria/42-webserv) | C++ · Makefile · Python · PHP |
 | [Minishell](https://www.zakaria-makhkhas.com/minishell) | C · parsing — live tokenizer & AST visualizer |
 | [Fract-ol](https://www.zakaria-makhkhas.com/fractol) | C · WebGL · GLSL — live in-browser explorer |
+| [Cub3D](https://www.zakaria-makhkhas.com/cub3d) | C · raycasting — playable in-browser engine |
 | [Push-swap](https://www.zakaria-makhkhas.com/push-swap) | C · algorithms — live sorting visualizer |
 | [Philosophers](https://www.zakaria-makhkhas.com/philosophers) | C · threads · concurrency — live simulator |
 | [Pong 3D](https://www.zakaria-makhkhas.com/pong) | Three.js · WebGL — playable 3D Pong |
@@ -93,7 +97,8 @@ Most of these are **live and open to try**, not just described.
 
 | | Role | Where |
 |---|---|---|
-| **May 2026 — Present** | AI Trainer *(Formateur en IA)* | OFPPT, Morocco |
+| **May 2026 — Present** | Senior Full-Stack Engineer & Data Scientist | Agrilogy |
+| **May 2026 — Present** | AI Trainer *(Formateur en IA, part-time)* | OFPPT, Morocco |
 | **Sept 2025 — May 2026** | Full-Stack Engineer | Revly |
 | **2023 — Sept 2025** | Software Developer *(Freelance)* | Agrilogy |
 | **Sept 2022 — May 2026** | Math & Informatics Teacher | Ministry of National Education, Morocco |
@@ -103,9 +108,10 @@ Most of these are **live and open to try**, not just described.
 
 <br>
 
-- **OFPPT** — training learners in applied AI (machine learning, deep learning, big data, expert systems, RAG and LLM-powered chatbots) through project- and competency-based pedagogy.
+- **Agrilogy (senior)** — leading full-stack engineering and data science for connected-farm platforms: React, Next.js, Django and Python data pipelines on PostgreSQL and Redis, device ingestion over MQTT, LoRaWAN and Bivocom gateways, deployed with Docker and CI/CD.
+- **OFPPT** — part-time training learners in applied AI (machine learning, deep learning, big data, expert systems, RAG and LLM-powered chatbots) through project- and competency-based pedagogy.
 - **Revly** — full-stack features with Next.js, React and PostgreSQL; data pipelines and Airflow DAGs on GCP / GCS, plus LLM-powered chatbots, shipped with Docker.
-- **Agrilogy** — full-stack agri-IoT platforms with React, Next.js and Django; device-ingestion pipelines over MQTT, LoRaWAN and Bivocom gateways, backed by PostgreSQL and Redis, deployed with Docker and CI/CD.
+- **Agrilogy (freelance)** — full-stack agri-IoT platforms with React, Next.js and Django; device-ingestion pipelines over MQTT, LoRaWAN and Bivocom gateways, backed by PostgreSQL and Redis, deployed with Docker and CI/CD.
 - **Ministry of National Education** — taught mathematics and computer science in higher and primary education, with differentiated, project-based pedagogy focused on soft skills.
 
 </details>
@@ -117,6 +123,13 @@ Most of these are **live and open to try**, not just described.
 | **2024 — Present** | Ph.D — multimodal machine learning | UIT Kenitra, Morocco |
 | **2022 — Present** | RNCP7 — AI & Data Architecture *(Bac+5)* | 1337 Khouribga / 42 Network |
 | **2020 — 2022** | Master's Degree — secure systems & applied AI | ENSIAS, Rabat, Morocco |
+
+## Research
+
+Peer-reviewed publications — with A. Rifai and A. Sadiq.
+
+- **Multimodal Large Language Models versus Task-Specific Models for Ordinal Student Attention Recognition** — *ICAIS 2026*, Springer LNCS · FSBM Casablanca, 28–30 Oct 2026 · code: [dipser-ordinal-attention-benchmark](https://github.com/mks-zakaria/dipser-ordinal-attention-benchmark), [dipser-vlm-poc](https://github.com/mks-zakaria/dipser-vlm-poc)
+- **Tchebichef-Moment Order and the Compression–Accuracy Trade-off in Facial Pose Classification** — *ICCT 2026*, Springer LNNS
 
 ## GitHub
 
