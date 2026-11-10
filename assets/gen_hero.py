@@ -3,8 +3,8 @@
 
 GitHub cannot run WebGL, so the portfolio's Three.js particle field
 (src/three/Particles.tsx) is re-created as an animated SVG: the same warm
-palette, the same slow flow-field drift, and the glowing pedestal disc from
-AvatarHead.tsx. CSS keyframes inside an <img>-loaded SVG do animate; scripts
+palette, the same slow flow-field drift, and the |ψ⟩ ket emblem from the
+portfolio hero (KetEmblem.tsx) — its 3D sway faked with scaleX/skew. CSS keyframes inside an <img>-loaded SVG do animate; scripts
 and external resources do not, so everything here is self-contained.
 """
 
@@ -29,6 +29,7 @@ THEMES = {
         accent="#ff7a45", accent2="#e6403f",
         glow=0.20, particle_scale=1.0, particle_alpha=0.85,
         rule="rgba(255,255,255,0.09)",
+        gold1="#ffd27a", gold2="#f2a43a", gold3="#8a4f12",
     ),
     "light": dict(
         bg="#f5f4f1", bg2="#ecebe6",
@@ -37,6 +38,7 @@ THEMES = {
         # the shader deepens the points and lifts opacity on a light bg
         glow=0.26, particle_scale=0.82, particle_alpha=1.0,
         rule="rgba(18,20,28,0.12)",
+        gold1="#e9a23b", gold2="#c9731c", gold3="#6b3a0c",
     ),
 }
 
@@ -90,17 +92,29 @@ def build(theme_name: str) -> str:
 
     out += [
         "@keyframes tw{from{opacity:.25}to{opacity:1}}",
-        # the pedestal disc's travelling rim ring. SVG defaults transform-box to
-        # view-box, which would resolve `center` to the whole canvas — pin it to
-        # each element's own box instead.
-        "@keyframes ring{0%{transform:scale(.5);opacity:.5}"
-        "100%{transform:scale(1.3);opacity:0}}",
-        ".ring{animation:ring 4.4s ease-out infinite;"
-        "transform-box:fill-box;transform-origin:center}",
-        "@keyframes breathe{from{opacity:.5;transform:scale(.94)}"
-        "to{opacity:1;transform:scale(1)}}",
-        ".core{animation:breathe 3.6s ease-in-out infinite alternate;"
-        "transform-box:fill-box;transform-origin:center}",
+        # |ψ⟩ ket emblem (same as the GitHub avatar / portfolio hero). SVG
+        # defaults transform-box to view-box — pin each part to its own box.
+        ".k{transform-box:fill-box;transform-origin:center}",
+        # slow sway: a narrowing scaleX + skew reads as a gentle 3D turn
+        "@keyframes sway{0%,100%{transform:scaleX(1) skewY(0)}"
+        "25%{transform:scaleX(.95) skewY(-1.2deg)}75%{transform:scaleX(.95) skewY(1.2deg)}}",
+        ".sway{animation:sway 14s ease-in-out 2.4s infinite}",
+        # entrance: | draws down, ψ surfaces, ⟩ draws through its vertex
+        "@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}",
+        ".d1,.d2{stroke-dasharray:1;animation:draw .9s cubic-bezier(.65,0,.35,1) .5s both}",
+        ".d2{animation-duration:1.1s;animation-delay:1s}",
+        "@keyframes surface{from{opacity:0;transform:translateY(10px) scale(.86)}"
+        "to{opacity:1;transform:none}}",
+        ".psi{animation:surface 1.2s cubic-bezier(.22,1,.36,1) .8s both}",
+        # idle: the parts drift apart and back at their own rhythm
+        "@keyframes dl{50%{transform:translateX(-5px)}}",
+        "@keyframes dr{50%{transform:translateX(5px)}}",
+        "@keyframes du{50%{transform:translateY(-4px) scale(1.03)}}",
+        ".bar{animation:dl 7s ease-in-out 2.2s infinite}",
+        ".brk{animation:dr 8s ease-in-out 2.6s infinite}",
+        ".psiw{animation:du 9s ease-in-out 2.4s infinite}",
+        "@keyframes kin{from{opacity:0}}",
+        ".kin{animation:kin 1.1s ease-out .3s both}",
         "@keyframes rise{from{opacity:0;transform:translateY(10px)}"
         "to{opacity:1;transform:translateY(0)}}",
         ".in1{animation:rise .9s cubic-bezier(.22,1,.36,1) both}",
@@ -127,10 +141,16 @@ def build(theme_name: str) -> str:
         f'<linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">'
         f'<stop offset="0" stop-color="{t["accent"]}"/>'
         f'<stop offset="1" stop-color="{t["accent2"]}"/></linearGradient>',
+        f'<radialGradient id="flare" cx="50%" cy="50%" r="50%">'
+        f'<stop offset="0" stop-color="{t["gold2"]}" stop-opacity=".22"/>'
+        f'<stop offset="1" stop-color="{t["gold2"]}" stop-opacity="0"/></radialGradient>',
+        f'<filter id="kglow" x="-30%" y="-30%" width="160%" height="160%">'
+        f'<feGaussianBlur stdDeviation="5" result="b"/>'
+        f'<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>',
         "</defs>",
         f'<rect width="{W}" height="{H}" rx="18" fill="url(#bg)"/>',
-        # one warm bloom, roughly where the avatar stands on the real site
-        f'<ellipse cx="915" cy="170" rx="340" ry="235" fill="url(#glow)"/>',
+        # one warm bloom behind the ket emblem
+        f'<ellipse cx="940" cy="170" rx="340" ry="235" fill="url(#glow)"/>',
     ]
 
     # ---- the particle field -------------------------------------------------
@@ -157,16 +177,35 @@ def build(theme_name: str) -> str:
         )
     out.append("</g>")
 
-    # ---- the flowing pedestal disc -----------------------------------------
-    out.append('<g transform="translate(915 170)">')
-    out.append('<circle class="core" cx="0" cy="0" r="58" fill="url(#disc)"/>')
-    for delay in (0, 1.1, 2.2, 3.3):
-        out.append(
-            f'<circle class="ring" cx="0" cy="0" r="74" fill="none" '
-            f'stroke="url(#ink)" stroke-width="1.4" stroke-opacity=".8" '
-            f'style="animation-delay:{delay}s"/>'
+    # ---- the |ψ⟩ ket emblem ---------------------------------------------------
+    CX, CY = 940, 170
+    g1, g2, g3 = t["gold1"], t["gold2"], t["gold3"]
+    out.append(f'<g class="kin" transform="translate({CX} {CY})">')
+    out.append('<circle r="150" fill="url(#flare)"/>')
+    # lens-flare cross
+    out.append(f'<path d="M-150 0H150M0 -150V150" stroke="{g1}" stroke-opacity=".22" stroke-width="1"/>')
+    # two orbit planes, seen tilted
+    out.append(f'<ellipse rx="150" ry="52" transform="rotate(-22)" fill="none" stroke="{g2}" stroke-opacity=".7" stroke-width="1.5"/>')
+    out.append(f'<ellipse rx="122" ry="44" transform="rotate(26)" fill="none" stroke="{g2}" stroke-opacity=".4" stroke-width="1.3"/>')
+    for x, y in ((-139, 56), (110, -50)):
+        out.append(f'<circle cx="{x}" cy="{y}" r="3" fill="{g1}" filter="url(#kglow)"/>')
+
+    # the glyph, in its own 300x200 box, extruded by stacked darker slices
+    def parts(stroke, fill, extra=""):
+        return (
+            f'<g class="k bar"><path class="d1" pathLength="1" d="M58 30V170" '
+            f'stroke="{stroke}" stroke-width="11" fill="none" {extra}/></g>'
+            f'<g class="k psiw"><text class="k psi" x="140" y="138" text-anchor="middle" '
+            f'font-family="\'Times New Roman\',Georgia,serif" font-style="italic" '
+            f'font-size="150" fill="{fill}">ψ</text></g>'
+            f'<g class="k brk"><path class="d2" pathLength="1" d="M222 30L262 100L222 170" '
+            f'stroke="{stroke}" stroke-width="11" fill="none" stroke-linejoin="miter" {extra}/></g>'
         )
-    out.append("</g>")
+    out.append('<g class="k sway"><g transform="translate(-142 -100)">')
+    for i in range(5, 0, -1):
+        out.append(f'<g transform="translate({i * 0.9:.1f} {i * 1.1:.1f})" opacity=".9">{parts(g3, g3)}</g>')
+    out.append(f'<g filter="url(#kglow)">{parts(g1, g1)}</g>')
+    out.append("</g></g></g>")
 
     # ---- the copy -----------------------------------------------------------
     out += [
