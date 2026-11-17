@@ -23,7 +23,6 @@ range of software — and I love passing on what I learn.
 
 - 🌱 **CTO at Agrogo** — leading technology for connected-farm platforms in production
 - 🎓 **AI Trainer at OFPPT** *(part-time)* — teaching applied ML, deep learning, big data, RAG and LLM chatbots
-- 🔬 **Ph.D candidate at UIT Kenitra** — multimodal machine learning across vision, language and structured data
 - 📱 **Building [Noor](https://apps.apple.com/app/noor-prayer-times-qibla/id6790552873)** (iOS) and **[Snaptle](https://www.snaptle.com)** — an adaptive French-learning tutor
 - 🌍 Casablanca, Morocco · English, French, German, Arabic
 
@@ -120,7 +119,6 @@ Most of these are **live and open to try**, not just described.
 
 | | Qualification | Where |
 |---|---|---|
-| **2024 — Present** | Ph.D — multimodal machine learning | UIT Kenitra, Morocco |
 | **2022 — Present** | RNCP7 — AI & Data Architecture *(Bac+5)* | 1337 Khouribga / 42 Network |
 | **2020 — 2022** | Master's Degree — secure systems & applied AI | ENSIAS, Rabat, Morocco |
 
