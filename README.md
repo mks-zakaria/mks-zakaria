@@ -15,10 +15,10 @@
   <a href="mailto:makhkhas.zakaria@gmail.com"><img src="https://img.shields.io/badge/Email-makhkhas.zakaria@gmail.com-ffd9a0?style=flat-square&logo=gmail&logoColor=white&labelColor=0a0b0f" alt="Email"></a>
 </p>
 
-## Engineer, researcher, and trainer
+## Engineer and trainer
 
-I build and architect modern full-stack web applications and pursue machine learning
-research. From low-level C to production React and Python services, I enjoy the full
+I build and architect modern full-stack web applications and machine learning
+systems. From low-level C to production React and Python services, I enjoy the full
 range of software — and I love passing on what I learn.
 
 - 🌱 **CTO at Agrogo** — leading technology for connected-farm platforms in production
