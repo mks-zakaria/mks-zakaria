@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.zakaria-makhkhas.com">
+  <a href="https://zakaria-makhkhas.com">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mks-zakaria/mks-zakaria/main/assets/hero-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mks-zakaria/mks-zakaria/main/assets/hero-light.svg">
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.zakaria-makhkhas.com"><img src="https://img.shields.io/badge/Portfolio-zakaria--makhkhas.com-ff7a45?style=flat-square&labelColor=0a0b0f" alt="Portfolio"></a>
+  <a href="https://zakaria-makhkhas.com"><img src="https://img.shields.io/badge/Portfolio-zakaria--makhkhas.com-ff7a45?style=flat-square&labelColor=0a0b0f" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/zakaria-makhkhas-a999a030b/"><img src="https://img.shields.io/badge/LinkedIn-Zakaria_Makhkhas-e6403f?style=flat-square&logo=linkedin&logoColor=white&labelColor=0a0b0f" alt="LinkedIn"></a>
   <a href="https://wa.me/212613145086"><img src="https://img.shields.io/badge/WhatsApp-+212_613_145_086-ffb070?style=flat-square&logo=whatsapp&logoColor=white&labelColor=0a0b0f" alt="WhatsApp"></a>
   <a href="mailto:makhkhas.zakaria@gmail.com"><img src="https://img.shields.io/badge/Email-makhkhas.zakaria@gmail.com-ffd9a0?style=flat-square&logo=gmail&logoColor=white&labelColor=0a0b0f" alt="Email"></a>
@@ -46,9 +46,9 @@ Most of these are **live and open to try**, not just described.
 | [**Noor — Prayer Times & Qibla**](https://apps.apple.com/app/noor-prayer-times-qibla/id6790552873) | Native iOS app: prayer times computed on-device, Qibla compass, full Quran with audio, adkar & a daily wird. EN/FR/AR, no data ever leaves the device. | Swift · SwiftUI · WidgetKit · Adhan |
 | [**Snaptle**](https://www.snaptle.com) | Adaptive French-learning tutor — evaluation, adaptive practice and quizzes for French as a foreign language, with an open learner model. | Next.js · Python/FastAPI · PostgreSQL |
 | **Agrilogy** | Connected-farm platform — field sensors to dashboard: device ingestion over MQTT, LoRaWAN and Bivocom gateways, shipped with Docker and CI/CD. *(client work)* | React · Next.js · Django · PostgreSQL/Redis |
-| [**Plant Disease Recognition**](https://www.zakaria-makhkhas.com/plant-disease) | 38 crop diseases, 98.7% on detached leaves and a fraction of that on real field photos — the page shows both, honestly. | PlantVillage · colour CNN in pure JS |
-| [**Emotion Recognition**](https://www.zakaria-makhkhas.com/emotion-recognition) | Runs entirely in your browser at 1.8 ms/frame — nothing is uploaded. One order *K* trades accuracy, compute and privacy. | Webcam · pure-JS CNN · Tchebichef moments |
-| [**RAG — Moroccan Law Assistant**](https://www.zakaria-makhkhas.com/lois-maroc) | Bilingual (AR/FR) Q&A over three official codes; every answer cites the statute articles it used. | transformers.js · multilingual-e5 · Groq |
+| [**Plant Disease Recognition**](https://zakaria-makhkhas.com/plant-disease) | 38 crop diseases, 98.7% on detached leaves and a fraction of that on real field photos — the page shows both, honestly. | PlantVillage · colour CNN in pure JS |
+| [**Emotion Recognition**](https://zakaria-makhkhas.com/emotion-recognition) | Runs entirely in your browser at 1.8 ms/frame — nothing is uploaded. One order *K* trades accuracy, compute and privacy. | Webcam · pure-JS CNN · Tchebichef moments |
+| [**RAG — Moroccan Law Assistant**](https://zakaria-makhkhas.com/lois-maroc) | Bilingual (AR/FR) Q&A over three official codes; every answer cites the statute articles it used. | transformers.js · multilingual-e5 · Groq |
 
 <details>
 <summary><b>Machine-learning playground</b> — a supervised → unsupervised progression, every one interactive</summary>
@@ -57,19 +57,19 @@ Most of these are **live and open to try**, not just described.
 
 | Algorithm | What you can watch happen |
 |---|---|
-| [CNN Digit Recognizer](https://www.zakaria-makhkhas.com/cnn) | A CNN trained from scratch to 98% on MNIST — draw a digit and watch it predict |
-| [Linear Regression](https://www.zakaria-makhkhas.com/linear-regression) | Live gradient descent on car mileage → price |
-| [Logistic Regression](https://www.zakaria-makhkhas.com/logistic-regression) | Sigmoid + cross-entropy descent, live probability field |
-| [Perceptron](https://www.zakaria-makhkhas.com/perceptron) | Rosenblatt's rule learning on every mistake |
-| [Support Vector Machine](https://www.zakaria-makhkhas.com/svm) | Soft-margin SVM via subgradient descent |
-| [K-Nearest Neighbors](https://www.zakaria-makhkhas.com/knn) | Lazy majority vote — slide *k* to reshape the regions |
-| [Decision Tree](https://www.zakaria-makhkhas.com/decision-tree) | Greedy CART carving the plane by information gain |
-| [Random Forest](https://www.zakaria-makhkhas.com/random-forest) | Bagged trees voting, boundary smoothing out |
-| [Neural Network](https://www.zakaria-makhkhas.com/neural-net) | A 2-layer MLP bending a curved boundary via backprop |
-| [K-Means Clustering](https://www.zakaria-makhkhas.com/kmeans) | Lloyd's algorithm, k-means++ seeding, live Voronoi regions |
-| [Pathfinding](https://www.zakaria-makhkhas.com/pathfinding) | A* vs Dijkstra vs BFS on a grid you draw |
-| [Tic-Tac-Toe AI](https://www.zakaria-makhkhas.com/tic-tac-toe) | Minimax + alpha-beta — try to beat it |
-| [Bubble Sort](https://www.zakaria-makhkhas.com/bubble-sort) | Adjacent comparisons and swaps, pass by pass, with early exit |
+| [CNN Digit Recognizer](https://zakaria-makhkhas.com/cnn) | A CNN trained from scratch to 98% on MNIST — draw a digit and watch it predict |
+| [Linear Regression](https://zakaria-makhkhas.com/linear-regression) | Live gradient descent on car mileage → price |
+| [Logistic Regression](https://zakaria-makhkhas.com/logistic-regression) | Sigmoid + cross-entropy descent, live probability field |
+| [Perceptron](https://zakaria-makhkhas.com/perceptron) | Rosenblatt's rule learning on every mistake |
+| [Support Vector Machine](https://zakaria-makhkhas.com/svm) | Soft-margin SVM via subgradient descent |
+| [K-Nearest Neighbors](https://zakaria-makhkhas.com/knn) | Lazy majority vote — slide *k* to reshape the regions |
+| [Decision Tree](https://zakaria-makhkhas.com/decision-tree) | Greedy CART carving the plane by information gain |
+| [Random Forest](https://zakaria-makhkhas.com/random-forest) | Bagged trees voting, boundary smoothing out |
+| [Neural Network](https://zakaria-makhkhas.com/neural-net) | A 2-layer MLP bending a curved boundary via backprop |
+| [K-Means Clustering](https://zakaria-makhkhas.com/kmeans) | Lloyd's algorithm, k-means++ seeding, live Voronoi regions |
+| [Pathfinding](https://zakaria-makhkhas.com/pathfinding) | A* vs Dijkstra vs BFS on a grid you draw |
+| [Tic-Tac-Toe AI](https://zakaria-makhkhas.com/tic-tac-toe) | Minimax + alpha-beta — try to beat it |
+| [Bubble Sort](https://zakaria-makhkhas.com/bubble-sort) | Adjacent comparisons and swaps, pass by pass, with early exit |
 
 </details>
 
@@ -83,12 +83,12 @@ Most of these are **live and open to try**, not just described.
 | [Transcendence](https://github.com/mks-zakaria/Transcendance) | React · NestJS · PostgreSQL · Docker · Django |
 | [Dockerized Infrastructure](https://github.com/mks-zakaria/42-Inception) | Docker · NGINX · WordPress · MariaDB · Redis |
 | [HTTP Web Server](https://github.com/mks-zakaria/42-webserv) | C++ · Makefile · Python · PHP |
-| [Minishell](https://www.zakaria-makhkhas.com/minishell) | C · parsing — live tokenizer & AST visualizer |
-| [Fract-ol](https://www.zakaria-makhkhas.com/fractol) | C · WebGL · GLSL — live in-browser explorer |
-| [Cub3D](https://www.zakaria-makhkhas.com/cub3d) | C · raycasting — playable in-browser engine |
-| [Push-swap](https://www.zakaria-makhkhas.com/push-swap) | C · algorithms — live sorting visualizer |
-| [Philosophers](https://www.zakaria-makhkhas.com/philosophers) | C · threads · concurrency — live simulator |
-| [Pong 3D](https://www.zakaria-makhkhas.com/pong) | Three.js · WebGL — playable 3D Pong |
+| [Minishell](https://zakaria-makhkhas.com/minishell) | C · parsing — live tokenizer & AST visualizer |
+| [Fract-ol](https://zakaria-makhkhas.com/fractol) | C · WebGL · GLSL — live in-browser explorer |
+| [Cub3D](https://zakaria-makhkhas.com/cub3d) | C · raycasting — playable in-browser engine |
+| [Push-swap](https://zakaria-makhkhas.com/push-swap) | C · algorithms — live sorting visualizer |
+| [Philosophers](https://zakaria-makhkhas.com/philosophers) | C · threads · concurrency — live simulator |
+| [Pong 3D](https://zakaria-makhkhas.com/pong) | Three.js · WebGL — playable 3D Pong |
 
 </details>
 
@@ -143,4 +143,4 @@ Peer-reviewed publications — with A. Rifai and A. Sadiq.
 
 Have a project in mind or just want to say hi? My inbox is always open.
 
-**[zakaria-makhkhas.com](https://www.zakaria-makhkhas.com)** · [makhkhas.zakaria@gmail.com](mailto:makhkhas.zakaria@gmail.com) · [WhatsApp](https://wa.me/212613145086) · [LinkedIn](https://www.linkedin.com/in/zakaria-makhkhas-a999a030b/)
+**[zakaria-makhkhas.com](https://zakaria-makhkhas.com)** · [makhkhas.zakaria@gmail.com](mailto:makhkhas.zakaria@gmail.com) · [WhatsApp](https://wa.me/212613145086) · [LinkedIn](https://www.linkedin.com/in/zakaria-makhkhas-a999a030b/)
